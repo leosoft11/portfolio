@@ -21,7 +21,7 @@
 .header__info { font-weight: 800; font-size: 48px; line-height: 64px; max-width: 889px; color: #ffffff; margin-top: 20px; margin-bottom: 50px; }
 .header__button { font-weight: 500; font-size: 16px; line-height: 20px; }
 
-.menu.active { visibility: visible; margin-top: 0; opacity: 0.8; }
+.menu.active { visibility: visible; margin-top: 0; opacity: 0.9; }
 
 .menu { height: 100px; display: flex; align-items: center; justify-content: flex-end; }
 @media screen and (max-width: 743px) { .menu { visibility: hidden; position: absolute; width: 100%; left: 0; background-color: #323232; justify-content: center; height: 100%; transition: 0.3s; margin-top: -500px; opacity: 0; } }
