@@ -209,6 +209,12 @@
   &__rows {
     display: flex;
     padding-bottom: 55px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 967px) {
+      justify-content: center;
+    }
+
     @media screen and (max-width: 743px) {
       flex-direction: column;
     }
@@ -218,6 +224,8 @@
     display: flex;
     padding-right: 31px;
     padding-left: 31px;
+    padding-bottom: 33px;
+    flex: 0 1 27%;
     @media screen and (max-width: 743px) {
       padding-bottom: 50px;
     }
