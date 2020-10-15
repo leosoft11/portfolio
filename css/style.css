@@ -89,9 +89,9 @@
 .sec4 { background: #f6f6f8; padding-top: 100px; padding-bottom: 130px; }
 .sec4__title { font-size: 36px; line-height: 53px; text-align: center; color: #000000; padding-bottom: 15px; }
 .sec4__text { font-size: 16px; line-height: 25px; text-align: center; color: #999999; max-width: 730px; padding-bottom: 55px; }
-.sec4__rows { display: flex; padding-bottom: 50px; }
+.sec4__rows { display: flex; padding-bottom: 50px; flex-wrap: wrap; align-items: center; }
 .sec4__items { display: flex; flex-direction: column; align-items: center; }
-.sec4__row { padding-left: 15px; padding-right: 15px; }
-.sec4__row img { max-width: 100%; }
+.sec4__row { padding-left: 15px; padding-right: 15px; padding-bottom: 10px; height: 255px; flex: 1 1 248px; }
+.sec4__row img { width: 100%; height: 100%; object-fit: cover; border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */
