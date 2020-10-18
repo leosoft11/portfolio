@@ -94,4 +94,26 @@
 .sec4__row { padding-left: 15px; padding-right: 15px; padding-bottom: 10px; height: 255px; flex: 1 1 248px; }
 .sec4__row img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
 
+.sec5 { padding-bottom: 85px; }
+.sec5__header { background: url("../images/banner.png"); background-repeat: no-repeat; background-position: top; background-size: cover; height: 570px; padding-top: 50px; }
+.sec5__header-title { font-weight: bold; font-size: 36px; line-height: 53px; text-align: center; color: #ffffff; }
+.sec5__header-subtitle { font-size: 16px; line-height: 25px; text-align: center; color: #ffffff; }
+.sec5__stroke { display: block; border: 1px solid #e0e0e0; }
+.sec5__spam { padding-top: 85px; margin: 0 auto; max-width: 730px; display: flex; flex-direction: column; align-items: center; }
+.sec5__spam-title { padding-bottom: 20px; font-weight: 600; font-size: 18px; line-height: 22px; text-align: center; color: #000000; }
+.sec5__spam-subtitle { font-size: 16px; line-height: 25px; text-align: center; color: #999999; }
+.sec5__spam-button { display: flex; padding-top: 30px; padding-bottom: 35px; }
+@media screen and (max-width: 495px) { .sec5__spam-button { flex-direction: column; align-items: center; } }
+.sec5__spam-email { background: #ffffff; border: 1px solid #f2f2f2; outline: none; box-sizing: border-box; box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25); height: 45px; width: 300px; border-radius: 30px 0px 0px 30px; padding-left: 25px; }
+@media screen and (max-width: 495px) { .sec5__spam-email { margin-bottom: 20px; width: 220px; border-radius: 30px 30px 30px 30px; } }
+.sec5__spam-btn { border-left: none; outline: none; background: #4985ff; box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25); border-radius: 0px 30px 30px 0px; height: 45px; width: 190px; font-weight: 500; font-size: 16px; line-height: 20px; text-align: center; color: #ffffff; border: none; cursor: pointer; }
+@media screen and (max-width: 495px) { .sec5__spam-btn { width: 220px; border-radius: 30px 30px 30px 30px; } }
+.sec5__spam-info { font-size: 13px; line-height: 21px; text-align: center; color: #999999; }
+
+.banner { display: flex; align-items: center; justify-content: center; max-width: 970px; min-height: 430px; background: url("../images/banner2.svg"); background-position: center; background-repeat: no-repeat; background-size: cover; margin: 0 auto; margin-top: -350px; margin-bottom: 85px; }
+.banner__btn { display: flex; align-items: center; border: 1px solid #ffffff; box-sizing: border-box; border-radius: 200px; padding: 20px 40px; cursor: pointer; }
+.banner__btn:hover { background-color: #524c4c; opacity: 0.6; border: none; }
+.banner__btn-watch { padding-right: 21px; }
+.banner__btn-title { font-weight: 500; font-size: 16px; line-height: 25px; color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
