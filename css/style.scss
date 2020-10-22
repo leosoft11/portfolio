@@ -248,6 +248,9 @@
   &__row-img {
     position: relative;
     padding-right: 50px;
+    img {
+      width: 48px;
+    }
     &::before {
       position: absolute;
       content: "";

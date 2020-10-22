@@ -47,6 +47,7 @@
 .sec1__row { display: flex; padding-right: 31px; padding-left: 31px; padding-bottom: 33px; flex: 0 1 27%; }
 @media screen and (max-width: 743px) { .sec1__row { padding-bottom: 50px; } }
 .sec1__row-img { position: relative; padding-right: 50px; }
+.sec1__row-img img { width: 48px; }
 .sec1__row-img::before { position: absolute; content: ""; width: 90px; height: 90px; border: 1px solid #4985ff; border-radius: 50%; top: -22px; left: -22px; }
 .sec1__row-img::after { position: absolute; content: ""; width: 110px; height: 110px; border: 1px solid #e0e0e0; border-radius: 50%; top: -32px; left: -32px; }
 .sec1__row-title { font-weight: 600; font-size: 18px; line-height: 22px; }
